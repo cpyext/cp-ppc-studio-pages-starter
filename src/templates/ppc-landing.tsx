@@ -10,12 +10,12 @@ import GridContainer from "../components/GridContainer";
 import HStack from "../components/HStack";
 import HeaderSimple from "../components/HeaderSimple";
 import Headline from "../components/Headline";
-import ItemsGrid from "../components/ItemsGrid";
 import Label from "../components/Label";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
 import VStack from "../components/VStack";
-import '../index.css'
+import "../index.css";
+
 export const config: TemplateConfig = {
   stream: {
     $id: "my-stream-id-4",
@@ -39,7 +39,7 @@ const EventPage: Template<TemplateRenderProps> = ({
       <Cta
         style={`font-bold text-black`}
         url={`${document.landingPageUrl}`}
-        buttonText={`Button 1`}
+        buttonText={`New Button`}
       />
       <HStack>
         <Paragraph
@@ -59,7 +59,7 @@ const EventPage: Template<TemplateRenderProps> = ({
           fontWeight="bold"
         />
         <Paragraph value={``} textSize="base" fontWeight="normal" />
-        <GridContainer  >
+        <GridContainer>
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
@@ -77,7 +77,7 @@ const EventPage: Template<TemplateRenderProps> = ({
             />
           </VStack>
         </GridContainer>
-        <GridContainer  >
+        <GridContainer>
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
