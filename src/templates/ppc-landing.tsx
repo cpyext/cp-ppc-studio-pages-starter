@@ -6,6 +6,7 @@ import {
   TemplateRenderProps,
 } from "@yext/pages";
 import Cta from "../components/Cta";
+import Divider from "../components/Divider";
 import GridContainer from "../components/GridContainer";
 import HStack from "../components/HStack";
 import HeaderSimple from "../components/HeaderSimple";
@@ -25,9 +26,9 @@ export const config: TemplateConfig = {
       "name",
       "landingPageUrl",
       "c_whystudy",
-      "c_footerImage",
       "c_title_arden",
       "c_desc_arden",
+      "c_footerImage",
       "slug",
     ],
   },
@@ -42,6 +43,7 @@ const EventPage: Template<TemplateRenderProps> = ({
 }: TemplateProps) => {
   return (
     <>
+      <Divider />
       <HeaderSimple backgroundColor="#011e50" logo={``} />
       <Label value={`Label ${document.name}`} />
       <Cta
@@ -155,6 +157,30 @@ const EventPage: Template<TemplateRenderProps> = ({
           src={`https://cdn.arden.ac.uk/s3fs-public/styles/landing_hero_small_768px_x2/public/2018-11/Manchester_study_centre_reception.png`}
           alt={``}
         />
+      </HStack>
+      <Headline
+        value={`Start your journey with Arden University`}
+        textSize="xl"
+        fontWeight="medium"
+      />
+      <HStack>
+        <ProductImage
+          src={`https://a.mktgcdn.com/p/_3Pogtb3dEWDQz0oU013Meskngn5HvdYFE8HL2aaN94/790x698.png`}
+          alt={``}
+        />
+        <ProductImage
+          src={`https://a.mktgcdn.com/p/OtVPjpLcBNM8s3evJYl7ZC6iZcCpA6_KWFkVabCcUuY/790x700.png`}
+          alt="Light green backpack with black canvas straps and front zipper pouch."
+        />
+        <ProductImage
+          src={`https://a.mktgcdn.com/p/diXA2bvSuFtAKRswCegPjPN0-qLoCDTRWn3QC3BxhvM/794x702.png`}
+          alt="Light green backpack with black canvas straps and front zipper pouch."
+        />
+        <ProductImage
+          src={`https://a.mktgcdn.com/p/C3krZZCH5S1paNLzFZDMbtg8X61CNaGH85daB98g78M/792x704.png`}
+          alt="Light green backpack with black canvas straps and front zipper pouch."
+        />
+        <Divider />
       </HStack>
       <ProductImage src={`${document.c_footerImage.url}`} alt={``} />
     </>
