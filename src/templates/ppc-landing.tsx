@@ -15,7 +15,7 @@ import Label from "../components/Label";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
 import VStack from "../components/VStack";
-
+import '../index.css'
 export const config: TemplateConfig = {
   stream: {
     $id: "my-stream-id-4",
@@ -59,7 +59,7 @@ const EventPage: Template<TemplateRenderProps> = ({
           fontWeight="bold"
         />
         <Paragraph value={``} textSize="base" fontWeight="normal" />
-        <ItemsGrid title={``}>
+        <GridContainer  >
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
@@ -76,8 +76,8 @@ const EventPage: Template<TemplateRenderProps> = ({
               fontWeight="normal"
             />
           </VStack>
-        </ItemsGrid>
-        <ItemsGrid title={``}>
+        </GridContainer>
+        <GridContainer  >
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
@@ -94,8 +94,8 @@ const EventPage: Template<TemplateRenderProps> = ({
               fontWeight="normal"
             />
           </VStack>
-        </ItemsGrid>
-        <ItemsGrid title={``}>
+        </GridContainer>
+        <GridContainer>
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
@@ -112,8 +112,8 @@ const EventPage: Template<TemplateRenderProps> = ({
               fontWeight="normal"
             />
           </VStack>
-        </ItemsGrid>
-        <ItemsGrid title={``}>
+        </GridContainer>
+        <GridContainer>
           <VStack>
             <ProductImage
               src={`${document.c_whystudy.studyimage.url}`}
@@ -130,7 +130,7 @@ const EventPage: Template<TemplateRenderProps> = ({
               fontWeight="normal"
             />
           </VStack>
-        </ItemsGrid>
+        </GridContainer>
       </GridContainer>
     </>
   );
