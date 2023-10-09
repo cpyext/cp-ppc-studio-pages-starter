@@ -21,7 +21,15 @@ export const config: TemplateConfig = {
     $id: "my-stream-id-4",
     localization: { locales: ["en_GB"], primary: false },
     filter: { entityTypes: ["ce_ppcLanding"] },
-    fields: ["name", "landingPageUrl", "c_whystudy", "slug"],
+    fields: [
+      "name",
+      "landingPageUrl",
+      "c_whystudy",
+      "c_footerImage",
+      "c_title_arden",
+      "c_desc_arden",
+      "slug",
+    ],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({
@@ -80,7 +88,7 @@ const EventPage: Template<TemplateRenderProps> = ({
         <GridContainer>
           <VStack>
             <ProductImage
-              src={`${document.c_whystudy.studyimage.url}`}
+              src={`${document.c_whystudy.studyimage2.url}`}
               alt={``}
             />
             <Headline
@@ -98,7 +106,7 @@ const EventPage: Template<TemplateRenderProps> = ({
         <GridContainer>
           <VStack>
             <ProductImage
-              src={`${document.c_whystudy.studyimage.url}`}
+              src={`${document.c_whystudy.studyimage3.url}`}
               alt={``}
             />
             <Headline
@@ -116,7 +124,7 @@ const EventPage: Template<TemplateRenderProps> = ({
         <GridContainer>
           <VStack>
             <ProductImage
-              src={`${document.c_whystudy.studyimage.url}`}
+              src={`${document.c_whystudy.studyimage4.url}`}
               alt={``}
             />
             <Headline
@@ -132,6 +140,23 @@ const EventPage: Template<TemplateRenderProps> = ({
           </VStack>
         </GridContainer>
       </GridContainer>
+      <HStack>
+        <Headline
+          value={`${document.c_title_arden}`}
+          textSize="xl"
+          fontWeight="medium"
+        />
+        <Paragraph
+          value={`${document.c_desc_arden}`}
+          textSize="sm"
+          fontWeight="normal"
+        />
+        <ProductImage
+          src={`https://cdn.arden.ac.uk/s3fs-public/styles/landing_hero_small_768px_x2/public/2018-11/Manchester_study_centre_reception.png`}
+          alt={``}
+        />
+      </HStack>
+      <ProductImage src={`${document.c_footerImage.url}`} alt={``} />
     </>
   );
 };
