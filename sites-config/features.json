@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "name": "ppc-landing",
+      "streamId": "my-stream-id-4",
+      "templateType": "JS",
+      "entityPageSet": {}
+    }
+  ],
+  "streams": [
+    {
+      "$id": "my-stream-id-4",
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_ppcLanding"
+        ]
+      },
+      "fields": [
+        "name",
+        "landingPageUrl",
+        "c_whystudy",
+        "slug"
+      ],
+      "source": "knowledgeGraph",
+      "destination": "pages"
+    }
+  ]
+}

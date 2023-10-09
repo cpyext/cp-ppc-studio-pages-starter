@@ -1,0 +1,263 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "ppc-landing",
+		"streamId": "my-stream-id-4",
+		"templateType": "JS"
+	},
+	"businessId": 4078817,
+	"c_course": {
+		"course1toLoc": [
+			1012319684
+		],
+		"course2toLoc": [
+			1012319684
+		],
+		"course3toLoc": [
+			1012319684
+		],
+		"courseLoc1": "London, Birmingham, Manchester or Online",
+		"courseLoc2": "London, Birmingham, Manchester or Online",
+		"courseLoc3": "London, Birmingham, Manchester",
+		"courseName1": "​LLB (Hons) Law",
+		"courseName2": "​LLB (Hons) Law ​WITH FOUNDATION YEAR",
+		"courseName3": "​CertHE Law",
+		"degreeName1": "Undergraduate",
+		"degreeName3": "Undergraduate",
+		"degreename2": "Undergraduate",
+		"viewCourse1": {
+			"label": "View course",
+			"link": "https://arden.ac.uk/our-courses/undergraduate/law-degrees/llb-hons?",
+			"linkType": "URL"
+		},
+		"viewCourse2": {
+			"label": "View course",
+			"link": "https://arden.ac.uk/our-courses/undergraduate/foundation-year-entry-degrees/llb-hons-qualifying-status-foundation?",
+			"linkType": "URL"
+		},
+		"viewCourse3": {
+			"label": "View course",
+			"link": "https://arden.ac.uk/our-courses/undergraduate/certhe/law?",
+			"linkType": "URL"
+		}
+	},
+	"c_desc_arden": "When you enrol on a Blended Learning Degree with Arden, you will become a student at our Manchester study centre. Giving you access to the technology and services you need to support your studies, our modern centre is buzzing with students, tutors and staff.",
+	"c_footerImage": {
+		"height": 1066,
+		"url": "https://a.mktgcdn.com/p/hrjZ1hfgZmO2FM4-dx8u0m4vWkEJMoDOORwoIULu8EM/2854x1066.png",
+		"width": 2854
+	},
+	"c_headerImage": {
+		"height": 222,
+		"url": "https://a.mktgcdn.com/p/kp95ZmcKA8wesjZYVZRm1URypA0jRRIGTW69e4bprSI/2864x222.png",
+		"width": 2864
+	},
+	"c_image_arden": {
+		"height": 866,
+		"url": "https://a.mktgcdn.com/p/7O7ZToiDNxsOb4vGklR92Pn5cXPvxRJxraippvvHk2I/1538x866.png",
+		"width": 1538
+	},
+	"c_startJourney": {
+		"cta3": {
+			"link": "https://arden.ac.uk/knowledge-base/virtual-events-webinars/upcoming-events",
+			"linkType": "URL"
+		},
+		"img1": {
+			"height": 48,
+			"url": "https://a.mktgcdn.com/p/ARIuim6_okJgT5TUe5ay9D7yFVGlsKGGNPYq76FVxj4/48x48.png",
+			"width": 48
+		},
+		"img2": {
+			"height": 48,
+			"url": "https://a.mktgcdn.com/p/zxOD6D2AWhca2NEpjUB02Nh1gTYBhIVq5Xnzx3UI39o/48x48.png",
+			"width": 48
+		},
+		"img3": {
+			"height": 48,
+			"url": "https://a.mktgcdn.com/p/5DA0rTK3uILXOZUuOaf4aInS74E5x7S5EPFGVpFWPD0/48x48.png",
+			"width": 48
+		},
+		"img4": {
+			"height": 48,
+			"url": "https://a.mktgcdn.com/p/ZyFZDNgE7ibmx9vOW6FQXexsR4Gj-gPAdSu4U00SVrQ/48x48.png",
+			"width": 48
+		},
+		"txt1": "Make an enquiry",
+		"txt2": "Request a call back",
+		"txt3": "Events and Open Days",
+		"txt4": "Download Brochure"
+	},
+	"c_title_arden": "Arden's Manchester Study Centre",
+	"c_whystudy": {
+		"studyimage": {
+			"height": 334,
+			"url": "https://a.mktgcdn.com/p/rBp52NksWwKHq3NSMOM_v2RSJkWWN_oS22eA6xqNR0s/635x334.jpg",
+			"width": 635
+		},
+		"studyimage2": {
+			"height": 200,
+			"url": "https://a.mktgcdn.com/p/9aM4LWPE1o_z5EI-RI-bUkhGw82xQgB8ClhR4NgMPcA/200x200.png",
+			"width": 200
+		},
+		"studyimage3": {
+			"height": 200,
+			"url": "https://a.mktgcdn.com/p/qqKoPpqNRoka3-KlVo9vFzJZdnRKyw8QoTmIRsMKzPc/200x200.png",
+			"width": 200
+		},
+		"studyimage4": {
+			"height": 200,
+			"url": "https://a.mktgcdn.com/p/xbm6tt6lGN4Rp3DWMWP4JgWBal_o2W1iXzw0Bbs2fto/200x200.png",
+			"width": 200
+		},
+		"studyimage5": {
+			"height": 400,
+			"url": "https://a.mktgcdn.com/p/aVQEnEJ0kAeKqMGb0u9-I2j8Aga3Nqj58fbd5_IZNmc/400x400.png",
+			"width": 400
+		},
+		"studyimage6": {
+			"height": 200,
+			"url": "https://a.mktgcdn.com/p/VqTLci4CIf4rIb1V6N3PDL4xOOcEKZSzIldDe-v6Z3w/200x200.png",
+			"width": 200
+		},
+		"title": "Recognised by the SRA and Bar Standards Board",
+		"title2": "Earn while you learn with Blended Learning",
+		"title3": "90% student satisfaction from Arden students",
+		"title4": "Manchester study centre",
+		"title5": "A more affordable route",
+		"title6": "Easy-to-use virtual classroom",
+		"titleDesc": "Recognised by both the Solicitors Regulation Authority (SRA) and the Bar Standards Board, our LLB Law with Qualifying Status course covers the key pillars of legal knowledge needed to kick off your career as a legal professional, and will be highly valued by employers.",
+		"titleDesc2": "Arden's innovative Blended Learning approach means you can complete a full-time Degree by attending lectures at our Manchester study centre twice a week, and use our online classroom the rest of the week. This leaves you the flexibility to continue working and earning while you learn.",
+		"titleDesc3": "The latest independent National Student Survey (NSS) recorded that 90% of our students were satisfied with the quality of Arden University's  LLB course, and an even more impressive 100% of students found our course intellectually stimulating.",
+		"titleDesc4": "Linley House is a spacious and modern building in the commercial core of Manchester. Located near St Peters Square with Oxford Road and Manchester Piccadilly train stations within a 10 minutes walk, you'll be connected to the heart of a busy city and thriving student population.",
+		"titleDesc5": "With Arden you only pay for what matters – high quality courses and a fantastic learning experience. Your entire course can be Student Loan funded*, although graduating debt free is possible if you earn while you learn.",
+		"titleDesc6": "Arden provides you with our online learning platform, ilearn, where you can continue your studies when you aren't in the classroom. Most course materials are accessible on any device, so you can learn on the go, whenever and wherever you please, 24/7."
+	},
+	"id": "4817961489847715640",
+	"key": "0:ppc-landing:knowledgeGraph:1012321093:en-GB",
+	"landingPageUrl": "https://arden.ac.uk/blended-law-manchester-lp",
+	"locale": "en-GB",
+	"logo": {
+		"image": {
+			"height": 399,
+			"url": "https://a.mktgcdn.com/p/lhrydTnDKH3ZdR0_Q6cQM5UChqggrnmp8Gt3LDlvvJk/399x399.png",
+			"width": 399
+		}
+	},
+	"meta": {
+		"entityType": {
+			"id": "ce_ppcLanding",
+			"uid": 140157
+		},
+		"locale": "en-GB"
+	},
+	"name": "Study your Law Degree in Manchester",
+	"ref_categories": null,
+	"ref_listings": [],
+	"ref_reviewsAgg": [],
+	"richTextDescriptionV2": {
+		"json": {
+			"root": {
+				"children": [
+					{
+						"children": [
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "Study your Qualifying Law Degree (QLD) through bended learning with Arden and unlock the door to your future as a legal professional",
+								"type": "text",
+								"version": 1
+							}
+						],
+						"direction": "ltr",
+						"format": "",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					},
+					{
+						"children": [
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "Study at our central Manchester study centre just 2 days a week and study online the rest of the time. Discover our Law Degree today.",
+								"type": "text",
+								"version": 1
+							}
+						],
+						"direction": "ltr",
+						"format": "",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					}
+				],
+				"direction": "ltr",
+				"format": "",
+				"indent": 0,
+				"type": "root",
+				"version": 1
+			}
+		}
+	},
+	"shortDescriptionV2": {
+		"json": {
+			"root": {
+				"children": [
+					{
+						"children": [
+							{
+								"detail": 0,
+								"format": 0,
+								"mode": "normal",
+								"style": "",
+								"text": "Find your perfect Law degree",
+								"type": "text",
+								"version": 1
+							}
+						],
+						"direction": "ltr",
+						"format": "",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					},
+					{
+						"children": [],
+						"direction": "ltr",
+						"format": "",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					},
+					{
+						"children": [],
+						"direction": "ltr",
+						"format": "",
+						"indent": 0,
+						"type": "paragraph",
+						"version": 1
+					}
+				],
+				"direction": "ltr",
+				"format": "",
+				"indent": 0,
+				"type": "root",
+				"version": 1
+			}
+		}
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "landing/4817961489847715640",
+	"uid": 1012321093,
+	"websiteUrl": {
+		"displayUrl": "https://arden.ac.uk/blended-law-manchester-lp",
+		"preferDisplayUrl": false,
+		"url": "https://arden.ac.uk/blended-law-manchester-lp"
+	}
+}
