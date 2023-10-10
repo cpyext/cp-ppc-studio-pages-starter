@@ -68,7 +68,6 @@ const EventPage: Template<TemplateRenderProps> = ({
           textSize="xl"
           fontWeight="bold"
         />
-        <Paragraph value={``} textSize="base" fontWeight="normal" />
         <GridContainer>
           <VStack>
             <ProductImage
