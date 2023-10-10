@@ -2,14 +2,14 @@
   "features": [
     {
       "name": "ppc-landing",
-      "streamId": "my-stream-id-4",
+      "streamId": "landing-page",
       "templateType": "JS",
       "entityPageSet": {}
     }
   ],
   "streams": [
     {
-      "$id": "my-stream-id-4",
+      "$id": "landing-page",
       "localization": {
         "locales": [
           "en_GB"
@@ -25,6 +25,9 @@
         "name",
         "landingPageUrl",
         "c_whystudy",
+        "c_title_arden",
+        "c_desc_arden",
+        "c_footerImage",
         "slug"
       ],
       "source": "knowledgeGraph",

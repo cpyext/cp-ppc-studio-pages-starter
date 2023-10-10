@@ -19,7 +19,7 @@ import "../index.css";
 
 export const config: TemplateConfig = {
   stream: {
-    $id: "my-stream-id-4",
+    $id: "landing-page",
     localization: { locales: ["en_GB"], primary: false },
     filter: { entityTypes: ["ce_ppcLanding"] },
     fields: [
