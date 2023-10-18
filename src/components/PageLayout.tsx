@@ -11,7 +11,7 @@ export const initialProps = {
 
 const PageLayout = ({ children, backgroundColor }: PageLayoutProps) => {
   return (
-    <div className="min-h-screen" style={{ backgroundColor }}>
+    <div className="min-h-screen gap-y-6" style={{ backgroundColor }}>
       <main>{children}</main>
     </div>
   );

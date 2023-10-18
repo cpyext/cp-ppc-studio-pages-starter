@@ -4,5 +4,5 @@ dist/
 .yext
 .artifact-output
 *.local
-
+src/templates/
 .DS_Store
