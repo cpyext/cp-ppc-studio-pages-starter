@@ -34,7 +34,7 @@ export const config: TemplateConfig = {
 export const getPath: GetPath<TemplateProps> = ({
   document,
 }: TemplateProps) => {
-  return `${document.slug}`;
+  return `index.html`;
 };
 const EventPage: Template<TemplateRenderProps> = ({
   document,
