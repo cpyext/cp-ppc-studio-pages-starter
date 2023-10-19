@@ -12,7 +12,7 @@
       "$id": "landing-page",
       "localization": {
         "locales": [
-          "en-GB"
+          "en_GB"
         ],
         "primary": false
       },
@@ -22,7 +22,8 @@
         ]
       },
       "fields": [
-        "c_headerImage",
+        "name",
+        "landingPageUrl",
         "c_whystudy",
         "c_title_arden",
         "c_desc_arden",

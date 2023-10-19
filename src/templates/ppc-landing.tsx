@@ -5,16 +5,14 @@ import {
   TemplateProps,
   TemplateRenderProps,
 } from "@yext/pages";
-import Cta from "../components/Cta";
 import Divider from "../components/Divider";
-import GridContainer from "../components/GridContainer";
 import HStack from "../components/HStack";
-import HeaderSimple from "../components/HeaderSimple";
 import Headline from "../components/Headline";
-import Label from "../components/Label";
+import PPCGridContainer from "../components/PPCGridContainer";
+import PPCGridItem from "../components/PPCGridItem";
+import PPCHeroBanner from "../components/PPCHeroBanner";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
-import VStack from "../components/VStack";
 import "../index.css";
 
 export const config: TemplateConfig = {
@@ -23,8 +21,8 @@ export const config: TemplateConfig = {
     localization: { locales: ["en_GB"], primary: false },
     filter: { entityTypes: ["ce_ppcLanding"] },
     fields: [
+      "c_headerImage",
       "name",
-      "landingPageUrl",
       "c_whystudy",
       "c_title_arden",
       "c_desc_arden",
@@ -43,13 +41,11 @@ const EventPage: Template<TemplateRenderProps> = ({
 }: TemplateProps) => {
   return (
     <>
-      <Divider />
-      <HeaderSimple backgroundColor="#011e50" logo={``} />
-      <Label value={`Label ${document.name}`} />
-      <Cta
-        style={`font-bold text-black`}
-        url={`${document.landingPageUrl}`}
-        buttonText={`New Button`}
+      <ProductImage src={`${document.c_headerImage.url}`} alt={``} />
+      <PPCHeroBanner
+        name={`${document.name}`}
+        backgroundImage="https://d2n98vq36tw7n9.cloudfront.net/s3fs-public/background_and_gradient/header-pattern.svg"
+        backgroundColor="#011e50"
       />
       <HStack>
         <Paragraph
@@ -62,91 +58,53 @@ const EventPage: Template<TemplateRenderProps> = ({
           alt="Light green backpack with black canvas straps and front zipper pouch."
         />
       </HStack>
-      <GridContainer>
-        <Paragraph
-          value={`Why study with Arden University?`}
-          textSize="xl"
-          fontWeight="bold"
+      <PPCGridContainer
+        gridCount={2}
+        paddingTop={4}
+        paddingBottom={4}
+        paddingLeft={2}
+        paddingRight={2}
+        title={``}
+        gapBetween={4}
+        backgroundColor="#FFFFFF"
+      >
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage.url}`}
+          title={`${document.c_whystudy.title}`}
+          description={`${document.c_whystudy.titleDesc}`}
         />
-        <GridContainer>
-          <VStack>
-            <ProductImage
-              src={`${document.c_whystudy.studyimage.url}`}
-              alt={``}
-            />
-            <Headline
-              value={`${document.c_whystudy.title}`}
-              textSize="xl"
-              fontWeight="medium"
-            />
-            <Paragraph
-              value={`${document.c_whystudy.titleDesc}`}
-              textSize="base"
-              fontWeight="normal"
-            />
-          </VStack>
-        </GridContainer>
-        <GridContainer>
-          <VStack>
-            <ProductImage
-              src={`${document.c_whystudy.studyimage2.url}`}
-              alt={``}
-            />
-            <Headline
-              value={`${document.c_whystudy.title}`}
-              textSize="xl"
-              fontWeight="medium"
-            />
-            <Paragraph
-              value={`${document.c_whystudy.titleDesc}`}
-              textSize="base"
-              fontWeight="normal"
-            />
-          </VStack>
-        </GridContainer>
-        <GridContainer>
-          <VStack>
-            <ProductImage
-              src={`${document.c_whystudy.studyimage3.url}`}
-              alt={``}
-            />
-            <Headline
-              value={`${document.c_whystudy.title}`}
-              textSize="xl"
-              fontWeight="medium"
-            />
-            <Paragraph
-              value={`${document.c_whystudy.titleDesc}`}
-              textSize="base"
-              fontWeight="normal"
-            />
-          </VStack>
-        </GridContainer>
-        <GridContainer>
-          <VStack>
-            <ProductImage
-              src={`${document.c_whystudy.studyimage4.url}`}
-              alt={``}
-            />
-            <Headline
-              value={`${document.c_whystudy.title}`}
-              textSize="xl"
-              fontWeight="medium"
-            />
-            <Paragraph
-              value={`${document.c_whystudy.titleDesc}`}
-              textSize="base"
-              fontWeight="normal"
-            />
-          </VStack>
-        </GridContainer>
-      </GridContainer>
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage2.url}`}
+          title={`${document.c_whystudy.title2}`}
+          description={`${document.c_whystudy.titleDesc2}`}
+        />
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage3.url}`}
+          title={`${document.c_whystudy.title3}`}
+          description={`${document.c_whystudy.titleDesc3}`}
+        />
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage4.url}`}
+          title={`${document.c_whystudy.title4}`}
+          description={`${document.c_whystudy.titleDesc4}`}
+        />
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage5.url}`}
+          title={`${document.c_whystudy.title5}`}
+          description={`${document.c_whystudy.titleDesc5}`}
+        />
+        <PPCGridItem
+          image={`${document.c_whystudy.studyimage6.url}`}
+          title={`${document.c_whystudy.title6}`}
+          description={`${document.c_whystudy.titleDesc6}`}
+        />
+      </PPCGridContainer>
+      <Headline
+        value={`${document.c_title_arden}`}
+        textSize="xl"
+        fontWeight="medium"
+      />
       <HStack>
-        <Headline
-          value={`${document.c_title_arden}`}
-          textSize="xl"
-          fontWeight="medium"
-        />
         <Paragraph
           value={`${document.c_desc_arden}`}
           textSize="sm"
@@ -157,6 +115,14 @@ const EventPage: Template<TemplateRenderProps> = ({
           alt={``}
         />
       </HStack>
+      <ProductImage
+        src={`https://a.mktgcdn.com/p/EB_4DyoFmGX_OhNRyKZDg7ffdeJoWVXWIhIl1hMAoF0/3346x206.png`}
+        alt={``}
+      />
+      <ProductImage
+        src={`https://a.mktgcdn.com/p/feb6GZm0HYR_BdxwZA-tFWzFRiGuwlbO3vrBimCTWrI/original`}
+        alt={``}
+      />
       <Headline
         value={`Start your journey with Arden University`}
         textSize="xl"
@@ -173,7 +139,7 @@ const EventPage: Template<TemplateRenderProps> = ({
         />
         <ProductImage
           src={`https://a.mktgcdn.com/p/diXA2bvSuFtAKRswCegPjPN0-qLoCDTRWn3QC3BxhvM/794x702.png`}
-          alt="Light green backpack with black canvas straps and front zipper pouch."
+          alt={``}
         />
         <ProductImage
           src={`https://a.mktgcdn.com/p/C3krZZCH5S1paNLzFZDMbtg8X61CNaGH85daB98g78M/792x704.png`}
