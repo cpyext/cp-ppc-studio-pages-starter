@@ -40,6 +40,7 @@ const EventPage: Template<TemplateRenderProps> = ({
   document,
 }: TemplateProps) => {
   return (
+    // <></>
     <>
       <ProductImage src={`${document.c_headerImage.url}`} alt={``} />
       <PPCHeroBanner
