@@ -2,14 +2,14 @@
   "features": [
     {
       "name": "ppc-landing",
-      "streamId": "landing-page",
+      "streamId": "landing-page-new",
       "templateType": "JS",
       "entityPageSet": {}
     }
   ],
   "streams": [
     {
-      "$id": "landing-page",
+      "$id": "landing-page-new",
       "localization": {
         "locales": [
           "en_GB"
@@ -22,8 +22,8 @@
         ]
       },
       "fields": [
+        "c_headerImage",
         "name",
-        "landingPageUrl",
         "c_whystudy",
         "c_title_arden",
         "c_desc_arden",
